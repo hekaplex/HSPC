@@ -1,0 +1,299 @@
+  20,1: import pandas as pd
+  21,1: import matplotlib.pyplot as plt
+  22,1: import seaborn as sns
+  37,1: import os
+  65,1: import pandas as pd
+  66,1: import joypy
+  67,1: import numpy as np
+  186,1: import os
+  187,1: import pandas as pd
+  188,1: import matplotlib.pyplot as plt
+  189,1: import numpy as np
+  555,12: # ### 1.1. Import packages
+  570,1: import os
+  571,1: import pandas as pd
+  572,1: import matplotlib.pyplot as plt
+  573,1: import seaborn as sns
+  801,1: import numpy as np 
+  802,1: import pandas as pd 
+  803,1: import glob
+  804,20: from tqdm.notebook import tqdm
+  805,1: import os
+  982,1: import numpy as np 
+  983,1: import pandas as pd 
+  984,1: import glob
+  1047,1: import os, gc, pickle
+  1048,1: import pandas as pd
+  1049,1: import matplotlib.pyplot as plt
+  1050,1: import seaborn as sns
+  1051,1: import numpy as np
+  1052,15: from colorama import Fore, Back, Style
+  1053,24: from matplotlib.ticker import MaxNLocator
+  1054,1: import warnings
+  1056,19: from sklearn.base import BaseEstimator, TransformerMixin
+  1057,30: from sklearn.model_selection import KFold
+  1058,28: from sklearn.preprocessing import StandardScaler, scale
+  1059,28: from sklearn.decomposition import PCA
+  1060,20: from sklearn.dummy import DummyRegressor
+  1061,23: from sklearn.pipeline import make_pipeline, Pipeline
+  1062,27: from sklearn.linear_model import Ridge
+  1063,27: from sklearn.linear_model import Lasso
+  1064,26: from sklearn.multioutput import MultiOutputRegressor
+  1065,1: import lightgbm as lgb
+  1066,22: from sklearn.compose import TransformedTargetRegressor
+  1067,22: from sklearn.metrics import mean_squared_error
+  1068,1: import optuna
+  1247,1: import os, gc, pickle
+  1248,1: import pandas as pd
+  1249,1: import matplotlib.pyplot as plt
+  1250,1: import seaborn as sns
+  1251,1: import numpy as np
+  1252,15: from colorama import Fore, Back, Style
+  1253,24: from matplotlib.ticker import MaxNLocator
+  1254,1: import warnings
+  1256,19: from sklearn.base import BaseEstimator, TransformerMixin
+  1257,30: from sklearn.model_selection import KFold
+  1258,28: from sklearn.preprocessing import StandardScaler, scale
+  1259,28: from sklearn.decomposition import PCA
+  1260,20: from sklearn.dummy import DummyRegressor
+  1261,23: from sklearn.pipeline import make_pipeline, Pipeline
+  1262,27: from sklearn.linear_model import Ridge
+  1263,27: from sklearn.linear_model import Lasso
+  1264,26: from sklearn.multioutput import MultiOutputRegressor
+  1265,1: import lightgbm as lgb
+  1266,22: from sklearn.compose import TransformedTargetRegressor
+  1267,22: from sklearn.metrics import mean_squared_error
+  1439,14: # #  Install/Import packages
+  1454,1: import os
+  1455,1: import pandas as pd
+  1456,1: import numpy as np
+  1457,1: import matplotlib.pyplot as plt
+  1458,1: import seaborn as sns
+  1518,28: from sklearn.decomposition import PCA
+  1519,1: import time 
+  1520,1: import matplotlib.pyplot as plt
+  1521,1: import seaborn as sns
+  1590,1: import seaborn as sns
+  1599,1: import igraph
+  1646,1: import umap
+  1695,1: import numbers
+  1729,1: import numbers
+  1778,1: import umap 
+  1779,14: from sklearn import manifold
+  1780,28: from sklearn.decomposition import PCA
+  1781,28: from sklearn.decomposition import FactorAnalysis
+  1782,28: from sklearn.decomposition import NMF
+  1783,28: from sklearn.decomposition import FastICA
+  1784,28: from sklearn.decomposition import FactorAnalysis
+  1785,28: from sklearn.decomposition import LatentDirichletAllocation
+  1786,23: from sklearn.ensemble import RandomTreesEmbedding
+  1787,32: from sklearn.random_projection import SparseRandomProjection
+  1788,36: from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+  1790,23: from sklearn.pipeline import make_pipeline
+  1791,28: from sklearn.decomposition import TruncatedSVD
+  1794,18: from collections import OrderedDict
+  1795,16: from functools import partial
+  1796,24: from matplotlib.ticker import NullFormatter
+  1865,1: import trimap
+  1901,1: import ncvis
+  1957,1: import numbers
+  2007,1: import numbers
+  2064,1: import numbers
+  2116,1: import os
+  2117,1: import torch
+  2118,1: import numpy as np
+  2119,1: import pandas as pd
+  2120,1: import dask.dataframe as dd
+  2121,1: import matplotlib.pyplot as plt
+  2422,1: import os, gc, pickle, datetime, scipy.sparse
+  2423,1: import pandas as pd
+  2424,1: import matplotlib.pyplot as plt
+  2425,1: import numpy as np
+  2426,15: from colorama import Fore, Back, Style
+  2428,30: from sklearn.model_selection import GroupKFold, train_test_split
+  2429,28: from sklearn.preprocessing import StandardScaler, scale, MinMaxScaler
+  2430,28: from sklearn.decomposition import TruncatedSVD
+  2432,1: import tensorflow as tf
+  2433,1: import tensorflow.keras.backend as K
+  2434,30: from tensorflow.keras.models import Model, load_model
+  2435,33: from tensorflow.keras.callbacks import ReduceLROnPlateau, LearningRateScheduler, EarlyStopping
+  2436,30: from tensorflow.keras.layers import Dense, Input, Concatenate
+  2437,29: from tensorflow.keras.utils import plot_model
+  2438,1: import keras_tuner
+  2767,1: import os, gc, pickle, scipy.sparse, lightgbm
+  2768,1: import pandas as pd
+  2769,1: import matplotlib.pyplot as plt
+  2770,1: import numpy as np
+  2771,15: from colorama import Fore, Back, Style
+  2772,24: from matplotlib.ticker import MaxNLocator
+  2774,30: from sklearn.model_selection import GroupKFold
+  2775,28: from sklearn.decomposition import TruncatedSVD
+  2776,22: from sklearn.metrics import mean_squared_error
+  2992,3: # Import base libraries, graphic libraries and modelling librairies (sklearn for Cross-validation, TF/Keras for modelling).
+  2997,1: import numpy as np, pandas as pd
+  2998,1: import glob, os, gc
+  3000,27: from IPython.core.display import display, HTML
+  3001,1: import matplotlib.pyplot as plt, seaborn as sns
+  3003,14: from sklearn import preprocessing, model_selection
+  3004,1: import tensorflow as tf
+  3005,17: from tensorflow import keras
+  3006,12: from keras import backend as K
+  3007,1: import tensorflow_probability as tfp
+  3282,1: import os, gc, scipy.sparse
+  3283,1: import pandas as pd
+  3284,1: import matplotlib.pyplot as plt
+  3285,1: import seaborn as sns
+  3286,1: import numpy as np
+  3287,15: from colorama import Fore, Back, Style
+  3288,28: from sklearn.decomposition import TruncatedSVD
+  3774,1: import os, gc, pickle
+  3775,1: import pandas as pd
+  3776,1: import matplotlib.pyplot as plt
+  3777,1: import numpy as np
+  3778,15: from colorama import Fore, Back, Style
+  3779,24: from matplotlib.ticker import MaxNLocator
+  3781,19: from sklearn.base import BaseEstimator, TransformerMixin
+  3782,30: from sklearn.model_selection import KFold
+  3783,28: from sklearn.preprocessing import StandardScaler, scale
+  3784,28: from sklearn.decomposition import PCA, TruncatedSVD
+  3785,20: from sklearn.dummy import DummyRegressor
+  3786,23: from sklearn.pipeline import make_pipeline, Pipeline
+  3787,27: from sklearn.linear_model import Ridge, LinearRegression, Lasso
+  3788,22: from sklearn.metrics import mean_squared_error
+  3790,1: import scipy
+  3791,1: import scipy.sparse
+  3874,1: import warnings
+  4048,1: import os, gc, pickle
+  4049,1: import pandas as pd
+  4050,1: import matplotlib.pyplot as plt
+  4051,1: import numpy as np
+  4052,15: from colorama import Fore, Back, Style
+  4053,24: from matplotlib.ticker import MaxNLocator
+  4055,19: from sklearn.base import BaseEstimator, TransformerMixin
+  4056,30: from sklearn.model_selection import KFold
+  4057,28: from sklearn.preprocessing import StandardScaler, scale
+  4058,28: from sklearn.decomposition import PCA
+  4059,20: from sklearn.dummy import DummyRegressor
+  4060,23: from sklearn.pipeline import make_pipeline, Pipeline
+  4061,27: from sklearn.linear_model import Ridge, LinearRegression
+  4062,22: from sklearn.metrics import mean_squared_error
+  4281,1: import os
+  4282,1: import copy
+  4283,1: import gc
+  4284,1: import math
+  4285,1: import itertools
+  4286,1: import pickle
+  4287,1: import glob
+  4288,1: import joblib
+  4289,1: import json
+  4290,1: import random
+  4291,1: import re
+  4292,1: import operator
+  4294,1: import collections
+  4295,18: from collections import defaultdict
+  4296,15: from operator import itemgetter, attrgetter
+  4298,20: from tqdm.notebook import tqdm
+  4300,1: import torch
+  4301,1: import torch.nn as nn
+  4303,1: import numpy as np
+  4304,1: import pandas as pd
+  4305,1: import plotly.express as px
+  4307,1: import scipy
+  4309,1: import sklearn
+  4310,1: import sklearn.cluster
+  4311,30: from sklearn.model_selection import train_test_split
+  4312,30: from sklearn.model_selection import KFold
+  4313,1: import sklearn.preprocessing
+  4315,1: import copy
+  4770,1: import os
+  4771,1: import copy
+  4772,1: import gc
+  4773,1: import math
+  4774,1: import itertools
+  4775,1: import pickle
+  4776,1: import glob
+  4777,1: import joblib
+  4778,1: import json
+  4779,1: import random
+  4780,1: import re
+  4781,1: import operator
+  4783,1: import collections
+  4784,18: from collections import defaultdict
+  4785,15: from operator import itemgetter, attrgetter
+  4787,20: from tqdm.notebook import tqdm
+  4789,1: import torch
+  4790,1: import torch.nn as nn
+  4792,1: import numpy as np
+  4793,1: import pandas as pd
+  4794,1: import plotly.express as px
+  4796,1: import scipy
+  4798,1: import sklearn
+  4799,1: import sklearn.cluster
+  4800,30: from sklearn.model_selection import train_test_split
+  4801,30: from sklearn.model_selection import KFold
+  4802,1: import sklearn.preprocessing
+  4804,1: import copy
+  5286,1: import gc
+  5287,1: import os.path
+  5289,1: import numpy as np
+  5290,1: import optuna
+  5291,1: import pandas as pd
+  5292,1: import torch
+  5293,1: import wandb
+  5294,19: from optuna.study import StudyDirection
+  5295,12: from scipy import sparse
+  5296,20: from tqdm.notebook import tqdm
+  5297,1: import copy
+  5298,15: from torchviz import make_dot
+  5304,5:     import kaggle_secrets
+  5846,1: import copy
+  6248,1: import pandas as pd
+  6249,1: import numpy as np
+  6250,1: import scipy.sparse
+  6266,1: import scipy
+  6394,1: import os
+  6395,1: import numpy as np
+  6396,1: import pandas as pd
+  6397,18: from collections import Counter
+  6865,1: import numpy as np
+  6866,1: import pandas as pd
+  6867,1: import matplotlib.pyplot as plt
+  6868,1: import seaborn as sns
+  6869,1: import os
+  6870,16: from termcolor import colored
+  6871,1: import warnings
+  6872,1: import h5py
+  7496,1: import os
+  7497,1: import numpy as np
+  7498,1: import pandas as pd
+  7499,1: import scipy.sparse as sps
+  7500,11: from tqdm import tqdm as tqdm
+  7501,1: import gc
+  7606,47: get_ipython().run_cell_magic('cython', '', '\nimport cython\ncimport cython\ncimport numpy as np\nimport numpy as np\nfrom tqdm import tqdm, trange\n\nctypedef np.int64_t INT64_t\n\n@cython.boundscheck(False)\n@cython.wraparound(False)\ncpdef np.ndarray[INT64_t, ndim=1] create_indptr(INT64_t[:] row_indices, int start_pos, int nrows):\n    cdef int shape = row_indices.shape[0]\n    res = np.zeros(nrows, dtype=np.int64)\n    cdef INT64_t[:] res_view = res\n    \n    cdef int i\n    cdef int curr_row = 0\n    cdef int prev = row_indices[0]\n    \n    for i in range(shape):\n        if row_indices[i] != prev:\n            curr_row += 1\n            res_view[curr_row] = i\n            prev = row_indices[i]\n    # res_view[curr_row + 1] = shape\n    return res + start_pos')
+  7606,63: get_ipython().run_cell_magic('cython', '', '\nimport cython\ncimport cython\ncimport numpy as np\nimport numpy as np\nfrom tqdm import tqdm, trange\n\nctypedef np.int64_t INT64_t\n\n@cython.boundscheck(False)\n@cython.wraparound(False)\ncpdef np.ndarray[INT64_t, ndim=1] create_indptr(INT64_t[:] row_indices, int start_pos, int nrows):\n    cdef int shape = row_indices.shape[0]\n    res = np.zeros(nrows, dtype=np.int64)\n    cdef INT64_t[:] res_view = res\n    \n    cdef int i\n    cdef int curr_row = 0\n    cdef int prev = row_indices[0]\n    \n    for i in range(shape):\n        if row_indices[i] != prev:\n            curr_row += 1\n            res_view[curr_row] = i\n            prev = row_indices[i]\n    # res_view[curr_row + 1] = shape\n    return res + start_pos')
+  7606,79: get_ipython().run_cell_magic('cython', '', '\nimport cython\ncimport cython\ncimport numpy as np\nimport numpy as np\nfrom tqdm import tqdm, trange\n\nctypedef np.int64_t INT64_t\n\n@cython.boundscheck(False)\n@cython.wraparound(False)\ncpdef np.ndarray[INT64_t, ndim=1] create_indptr(INT64_t[:] row_indices, int start_pos, int nrows):\n    cdef int shape = row_indices.shape[0]\n    res = np.zeros(nrows, dtype=np.int64)\n    cdef INT64_t[:] res_view = res\n    \n    cdef int i\n    cdef int curr_row = 0\n    cdef int prev = row_indices[0]\n    \n    for i in range(shape):\n        if row_indices[i] != prev:\n            curr_row += 1\n            res_view[curr_row] = i\n            prev = row_indices[i]\n    # res_view[curr_row + 1] = shape\n    return res + start_pos')
+  7606,99: get_ipython().run_cell_magic('cython', '', '\nimport cython\ncimport cython\ncimport numpy as np\nimport numpy as np\nfrom tqdm import tqdm, trange\n\nctypedef np.int64_t INT64_t\n\n@cython.boundscheck(False)\n@cython.wraparound(False)\ncpdef np.ndarray[INT64_t, ndim=1] create_indptr(INT64_t[:] row_indices, int start_pos, int nrows):\n    cdef int shape = row_indices.shape[0]\n    res = np.zeros(nrows, dtype=np.int64)\n    cdef INT64_t[:] res_view = res\n    \n    cdef int i\n    cdef int curr_row = 0\n    cdef int prev = row_indices[0]\n    \n    for i in range(shape):\n        if row_indices[i] != prev:\n            curr_row += 1\n            res_view[curr_row] = i\n            prev = row_indices[i]\n    # res_view[curr_row + 1] = shape\n    return res + start_pos')
+  7606,129: get_ipython().run_cell_magic('cython', '', '\nimport cython\ncimport cython\ncimport numpy as np\nimport numpy as np\nfrom tqdm import tqdm, trange\n\nctypedef np.int64_t INT64_t\n\n@cython.boundscheck(False)\n@cython.wraparound(False)\ncpdef np.ndarray[INT64_t, ndim=1] create_indptr(INT64_t[:] row_indices, int start_pos, int nrows):\n    cdef int shape = row_indices.shape[0]\n    res = np.zeros(nrows, dtype=np.int64)\n    cdef INT64_t[:] res_view = res\n    \n    cdef int i\n    cdef int curr_row = 0\n    cdef int prev = row_indices[0]\n    \n    for i in range(shape):\n        if row_indices[i] != prev:\n            curr_row += 1\n            res_view[curr_row] = i\n            prev = row_indices[i]\n    # res_view[curr_row + 1] = shape\n    return res + start_pos')
+  7798,1: import os
+  7799,1: import pandas as pd
+  7975,1: import os, gc, pickle
+  7976,1: import pandas as pd
+  7977,1: import matplotlib.pyplot as plt
+  7978,1: import seaborn as sns
+  7979,1: import numpy as np
+  7980,15: from colorama import Fore, Back, Style
+  7981,24: from matplotlib.ticker import MaxNLocator
+  7982,1: import warnings
+  7984,19: from sklearn.base import BaseEstimator, TransformerMixin
+  7985,30: from sklearn.model_selection import KFold
+  7986,28: from sklearn.preprocessing import StandardScaler, scale
+  7987,28: from sklearn.decomposition import PCA
+  7988,20: from sklearn.dummy import DummyRegressor
+  7989,23: from sklearn.pipeline import make_pipeline, Pipeline
+  7990,27: from sklearn.linear_model import Ridge
+  7991,27: from sklearn.linear_model import Lasso
+  7992,26: from sklearn.multioutput import MultiOutputRegressor
+  7993,1: import lightgbm as lgb
+  7994,22: from sklearn.compose import TransformedTargetRegressor
+  7995,22: from sklearn.metrics import mean_squared_error
+  8015,1: import optuna
